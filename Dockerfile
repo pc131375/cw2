@@ -10,6 +10,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 5000
 
-ENV NAME Perceptron
+ENV NAME cw2
 
 CMD ["python", "app.py"]
